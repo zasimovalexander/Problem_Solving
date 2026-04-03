@@ -10,7 +10,7 @@ MAP_MORSE = {'.-': 'A', '-...': 'B', '-.-.': 'C', '-..': 'D', '.': 'E', '..-.': 
 
 def decode_bits_advanced(bits: str) -> str:
     """
-    Decode the Morse Code, for Real.
+    Decode the Morse Code for real.
 
     Idea:
         Normalize unknown transmission speed by extracting base time unit from run-lengths of 1 and 0, then classify
